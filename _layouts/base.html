@@ -7,11 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   {% if page and page.excerpt %}<meta name="description" content="{{ page.excerpt }}">
   {% elsif page and page.path == "index.md" %}<meta name="description" content="{{ site.description }}">{% endif %}
-  {% if site.site_author %}<meta name="author" content="{{ site.site_author }}">{% endif %}
+  <!-- {% if site.site_author %}<meta name="author" content="{{ site.site_author }}">{% endif %}
   {% if page and page.canonical_url %}<link rel="canonical" href="{{ page.canonical_url }}">{% endif %}
 
   {% if config.site_favicon %}<link rel="shortcut icon" href="{{ config.site_favicon | url }}">
-  {% else %}<link rel="shortcut icon" href="{{ 'assets/img/favicon.ico' | absolute_url  }}">{% endif %}
+  {% else %}<link rel="shortcut icon" href="{{ 'assets/img/favicon.ico' | absolute_url  }}">{% endif %} -->
 
   <title>{% if page and page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
 
